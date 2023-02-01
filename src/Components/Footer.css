@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.Footer {
+    background-color: #24252A;
+    height: 200px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+div p {
+    color: #edf0f1;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.Redes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FootItem {
+    margin: 50px 30px;
+    list-style: none;
+}
+
+.ImgLogo {
+    width: 500px;
+}
+
+.ImgRedes {
+    width: 90px;
+    margin-top: 10px;
+}
+
+.Pages {
+    margin: 0px;
+}
+
+.FItem {
+    list-style: none;   
+    text-transform: uppercase;
+    width: max-content;
+    margin: 30px 40px 0 0;
+}
+
+.FLink {
+    font-size: 20px;
+    text-decoration: none;
+    color: #edf0f1;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.FLink:hover {
+    background-color: #6F8C64;
+    transition: 0.8s;
+}
+
+.copyrigth {
+    font-size: 17px;
+}
+
+
+@media (max-width: 769px) {
+
+    .Footer {
+        height: 130px;
+    }
+
+    .ImgLogo {
+        width: 300px;   
+    }
+
+    div p {
+        font-size: 8px;
+        margin-left: 15px;
+    }
+
+    .ImgRedes {
+        width: 60px;
+        margin-left: 30PX;
+    }
+
+    .Redes {
+        margin-right: 20px;
+    }
+
+    .FootItem {
+        margin: 30px 10px;
+    }
+
+    .Pages {
+        margin-top: 15px;
+        margin-right: 30px;
+    }
+
+    .FItem {
+        margin: 8px;
+    }
+
+    .FLink {
+        font-size: 10px;
+        padding: 1px 5px;
+    }
+}
+
+@media (max-width: 378px) {
+    
+    .Footer {
+        height: 260px;
+    }
+    
+    .ImgLogo {
+        margin-left: 5px;
+    }
+
+    div p {
+        margin-left: 25px;
+    }
+
+    .Pages {
+        display: none;
+    }
+
+    .Footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FootItem {
+        margin: 30px 5px;
+        margin-left: -8px;
+    }
+}
