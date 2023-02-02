@@ -20,7 +20,7 @@ div p {
     margin-left: 40px;
 }
 
-.Redes {
+.RedesFooter {
     display: flex;
     justify-content: space-between;
 }
@@ -88,7 +88,7 @@ div p {
         margin-left: 30PX;
     }
 
-    .Redes {
+    .RedesFooter {
         margin-right: 20px;
     }
 
@@ -106,7 +106,7 @@ div p {
     }
 
     .FLink {
-        font-size: 10px;
+        font-size: 12px;
         padding: 1px 5px;
     }
 }
@@ -137,5 +137,9 @@ div p {
     .FootItem {
         margin: 30px 5px;
         margin-left: -8px;
+    }
+
+    .RedesFooter {
+        margin-left: 7px;
     }
 }

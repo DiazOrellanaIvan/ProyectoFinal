@@ -3,8 +3,8 @@ import './Login.css';
 const Login = () => {
     return(
         <>
-        <body>
-            <div className='center'>
+        <div className='ContentLogin'>
+            <div className='CenterLogin'>
                 <h1>Login</h1>
                 <form method='post'>
                     <div className='text'>
@@ -24,7 +24,7 @@ const Login = () => {
                     </div>
                 </form>
             </div>
-        </body>
+        </div>
         </>
     );    
 }

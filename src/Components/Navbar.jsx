@@ -2,7 +2,7 @@ import '../Components/Navbar.css';
 import Logo from '../Images/Others/Logo.png';
 import Perfil from '../Images/Others/Perfil.png';
 import HamburguerMenu from '../Images/Others/HamburguerMenu.png';
-// import './Boton.js'
+// import './Boton.js';
 
 const Navbar = () => {
     return(

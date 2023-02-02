@@ -1,4 +1,4 @@
-body {
+.ContentLogin {
     margin: 0;
     padding: 0;
     background: linear-gradient(120deg, #FDD584, #6F8C64);
@@ -6,7 +6,7 @@ body {
     overflow: hidden;
 }
 
-.center {
+.CenterLogin {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -16,7 +16,7 @@ body {
     border-radius: 10px;
 }
 
-.center h1 {
+.CenterLogin h1 {
     font-size: 40px;
     text-align: center;
     padding: 10px 0px 20px 0px;
@@ -24,7 +24,7 @@ body {
     color: #312e2e;
 }
 
-.center form {
+.CenterLogin form {
      padding: 0px 40px;
      box-sizing: border-box;
 }
@@ -124,13 +124,13 @@ input[type="submit"]:hover {
 
 @media (max-width: 320px) {
     
-    .center {
+    .CenterLogin {
         top: 12%;
         left: -40px;
         transform: scale(0.7);
     }
 
-    .center h1 {
+    .CenterLogin h1 {
         font-size: 40px;
     }
 }

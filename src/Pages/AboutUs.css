@@ -1,4 +1,4 @@
-body {
+.ContentAbout {
     margin: 0;
     padding: 0;
     background: linear-gradient(120deg, #FDD584, #6F8C64);
@@ -7,7 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.Content {
+.ContentAboutUs {
     max-width: 1100px;
     height: 550px;
     margin: 50px auto;
@@ -18,19 +18,19 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    margin-top: 150px;
+    margin-top: 180px;
 }
 
-h1 {
+.ContentAboutUs h1 {
     line-height: 2;
 }
 
-h1, h3 {
+.ContentAboutUs h1, .ContentAboutUs h3 {
     color: #efefef;
     text-transform: uppercase;
 }
 
-h3 {
+.ContentAboutUs h3 {
     margin-bottom: 50px;
     text-align: center;
 }
@@ -48,6 +48,7 @@ h3 {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
     border-radius: 20px;
 }
 
@@ -57,20 +58,22 @@ h3 {
     border-radius: 50%;
 }
 
-a {
+.Links {
     text-decoration: none;
     color: #24252A;
     text-transform: uppercase;
 }
 
-p {
+.Name {
     font-weight: 700;
+    color: #24252A;
+    margin: 15px auto;
 }
 
 .Redes {
     display: flex;
     justify-content: space-around;
-    margin-right: 10px;
+    margin-right: 0px;
 }
 
 .Icon {
@@ -81,10 +84,10 @@ p {
 
 @media (max-width: 768px) {
 
-    .Content {
+    .ContentAboutUs {
         width: 600px;
         height: 900px;
-        margin-top: 10px;
+        margin-top: 60px;
     }
 
     .Grid {
@@ -93,26 +96,33 @@ p {
         gap: 20px;
     }
 
-    h1 {
-        font-size: 28px;
+    .ContentAboutUs h1 {
+        font-size: 22px;
     }
 
-    h3 {
-        font-size: 18px;
+    .ContentAboutUs h3 {
+        font-size: 15px;
         margin-left: 5px;
         text-align: center;
+        margin-top: 20px;
+    }
+
+    .Name {
+        font-size: 15px;
+        font-weight: 800;
     }
 }
 
 @media (max-width: 320px) {
 
-    body {  
+    .ContentAbout {  
         overflow: scroll;
     }
 
-    .Content {  
-        width: 200px;
-        height: 1700px;
+    .ContentAboutUs {  
+        width: 300px;
+        margin-top: 50px;
+        height: 1750px;
     }
 
     .Grid {
@@ -124,12 +134,12 @@ p {
         width: 230px;
     }
 
-    h1 {
+    .ContentAboutUs h1 {
         font-size: 20px;
         text-align: center;
     }
 
-    h3 {
+    .ContentAboutUs h3 {
         text-align: center;
         font-size: 15px;
     }

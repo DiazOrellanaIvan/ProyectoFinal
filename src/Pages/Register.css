@@ -1,4 +1,4 @@
-body {
+.Content {
     margin: 0;
     padding: 0;
     background: linear-gradient(120deg, #FDD584, #6F8C64);
@@ -6,7 +6,7 @@ body {
     overflow: hidden;
 }
 
-.center {
+.CenterRegister {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -16,13 +16,13 @@ body {
     border-radius: 10px;
 }
 
-.center h1 {
+.CenterRegister h1 {
     text-align: center;
     padding: 0px 0px 20px 0px;
     border-bottom: 1px solid silver;
 }
 
-.center form {
+.CenterRegister form {
     padding: 0px 40px;
     box-sizing: border-box;
 }
@@ -97,7 +97,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 320px) {
     
-    .center {
+    .CenterRegister {
         top: 12%;
         left: -40px;
         transform: scale(0.7);

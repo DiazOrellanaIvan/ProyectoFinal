@@ -12,7 +12,7 @@ const Footer = () => {
                 <img src={Logo} className='ImgLogo' />
                 <div><p className='copyrigth'>© 2022 Travel Adventure. Todos los derechos reservados</p></div>
             </a>
-            <ul className='Redes'>
+            <ul className='RedesFooter'>
                 <li className='FootItem'><a href="#" className='FootLink'><img className='ImgRedes' src={IconFacebook}/></a></li>
                 <li className='FootItem'><a href="#" className='FootLink'><img className='ImgRedes' src={IconInstagram}/></a></li>
                 <li className='FootItem'><a href="#" className='FootLink'><img className='ImgRedes' src={IconTwitter}/></a></li>

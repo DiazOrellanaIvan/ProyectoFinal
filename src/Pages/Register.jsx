@@ -3,9 +3,9 @@ import './Register.css';
 const Register= () => {
     return(
         <>
-            <body>
-                <div className='center'>
-                    <h1>Sing In</h1>
+            <div className='Content'>
+                <div className='CenterRegister'>
+                    <h1 className='TitleRegister'>Sing In</h1>
                     <form method='post'>
                         <div className='text'>
                             <input type="text" required />
@@ -25,7 +25,7 @@ const Register= () => {
                         <input type="submit" value="Sing In"/>
                     </form>
                 </div>
-            </body>
+            </div>
         </>
     );
 } 
