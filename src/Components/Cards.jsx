@@ -1,8 +1,9 @@
 import '../Components/Cards.css';
-import uno from '../Images/Cards/uno.jpg'
-import dos from '../Images/Cards/dos.jpg'
-import tres from '../Images/Cards/tres.jpg'
-import cuatro from '../Images/Cards/cuatro.jpg'
+import uno from '../Images/Cards/uno.jpg';
+import dos from '../Images/Cards/dos.jpg';
+import tres from '../Images/Cards/tres.jpg';
+import cuatro from '../Images/Cards/cuatro.jpg';
+import {Link} from "react-router-dom";
 
 const Cards = () => {
     return (
@@ -16,7 +17,7 @@ const Cards = () => {
                         <h2>JUJUY</h2>
                         <h3>Precio de $60.000</h3>
                         <p> 6 dias / 5 noches </p>
-                        <a href="#">VER MAS</a>
+                        <Link to='/NotFound'>VER MAS</Link>
                     </div>
                 </div>
                 <div className='card'>
@@ -27,7 +28,7 @@ const Cards = () => {
                         <h2>CATARATAS</h2>
                         <h3>Precio de $43.000</h3>
                         <p> 5 dias / 4 noches </p>
-                        <a href="#">VER MAS</a>
+                        <Link to='/NotFound'>VER MAS</Link>
                     </div>
                 </div>
                 <div className='card'>
@@ -38,7 +39,7 @@ const Cards = () => {
                         <h2>GLACIAR PERITO</h2>
                         <h3>Precio de $52.500</h3>
                         <p> 7 dias / 5 noches </p>
-                        <a href="#">VER MAS</a>
+                        <Link to='/NotFound'>VER MAS</Link>
                     </div>
                 </div>
                 <div className='card'>
@@ -49,7 +50,7 @@ const Cards = () => {
                         <h2>BARILOCHE</h2>
                         <h3>Precio de $33.000</h3>
                         <p> 6 dias / 5 noches </p>
-                        <a href="#">VER MAS</a>
+                        <Link to='/NotFound'>VER MAS</Link>
                     </div>
                 </div>
             </div>

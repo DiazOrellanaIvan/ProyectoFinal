@@ -6,10 +6,14 @@ import racedo from '../Images/AboutUs/racedo.jpeg';
 import IconFacebook from '../Images/Social Media/IconFacebook.png';
 import IconInstagram from '../Images/Social Media/IconInstagram.png';
 import IconTwitter from '../Images/Social Media/IconTwitter.png';
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
+import {Link} from "react-router-dom";
 
 const AboutUs = () => {
     return(
     <>
+        <Navbar />
         <div className='ContentAbout'>
             <div class="ContentAboutUs">
                 <h1 id='Abouth1'>Nosotros somos Travel Adventure</h1>
@@ -22,9 +26,9 @@ const AboutUs = () => {
                             <div>
                                 <p class="Name">Racedo Sebastian</p>
                                 <div class="Redes">
-                                    <a className='Links' href=""><img class="Icon" src={IconFacebook} /></a>
-                                    <a className='Links' href=""><img class="Icon" src={IconInstagram} /></a>
-                                    <a className='Links' href=""><img class="Icon" src={IconTwitter} /></a>
+                                    <Link to='/NotFound' className='Links'><img class="Icon" src={IconFacebook} /></Link>
+                                    <Link to='/NotFound' className='Links'><img class="Icon" src={IconInstagram} /></Link>
+                                    <Link to='/NotFound' className='Links'><img class="Icon" src={IconTwitter} /></Link>
                                 </div>
                             </div>
                         </a>
@@ -36,9 +40,9 @@ const AboutUs = () => {
                             <div>
                                 <p class="Name">Díaz Iván</p>
                                 <div class="Redes">
-                                    <a className='Links' href=""><img class="Icon" src={IconFacebook} /></a>
-                                    <a className='Links' href=""><img class="Icon" src={IconInstagram} /></a>
-                                    <a className='Links' href=""><img class="Icon" src={IconTwitter} /></a>
+                                    <Link to='/NotFound' className='Links'><img class="Icon" src={IconFacebook} /></Link>
+                                    <Link to='/NotFound' className='Links'><img class="Icon" src={IconInstagram} /></Link>
+                                    <Link to='/NotFound' className='Links'><img class="Icon" src={IconTwitter} /></Link>
                                 </div>
                             </div>
                         </a>
@@ -50,9 +54,9 @@ const AboutUs = () => {
                             <div>
                                 <p class="Name">Musa Abel</p>
                                 <div class="Redes">
-                                    <a className='Links' href=""><img class="Icon" src={IconFacebook} /></a>
-                                    <a className='Links' href=""><img class="Icon" src={IconInstagram} /></a>
-                                    <a className='Links' href=""><img class="Icon" src={IconTwitter} /></a>
+                                    <Link to='/NotFound' className='Links'><img class="Icon" src={IconFacebook} /></Link>
+                                    <Link to='/NotFound' className='Links'><img class="Icon" src={IconInstagram} /></Link>
+                                    <Link to='/NotFound' className='Links'><img class="Icon" src={IconTwitter} /></Link>
                                 </div>
                             </div>
                         </a>
@@ -64,9 +68,9 @@ const AboutUs = () => {
                             <div>
                                 <p class="Name">Carol Nicolas</p>
                                 <div class="Redes">
-                                    <a className='Links' href=""><img class="Icon" src={IconFacebook} /></a>
-                                    <a className='Links' href=""><img class="Icon" src={IconInstagram} /></a>
-                                    <a className='Links' href=""><img class="Icon" src={IconTwitter} /></a>
+                                    <Link to='/NotFound' className='Links'><img class="Icon" src={IconFacebook} /></Link>
+                                    <Link to='/NotFound' className='Links'><img class="Icon" src={IconInstagram} /></Link>
+                                    <Link to='/NotFound' className='Links'><img class="Icon" src={IconTwitter} /></Link>
                                 </div>
                             </div>
                         </a>
@@ -74,6 +78,7 @@ const AboutUs = () => {
                 </div>
             </div>
         </div>
+        <Footer />
     </>
     );
 }

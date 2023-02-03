@@ -88,6 +88,10 @@ form .text {
     text-decoration: underline;
 }
 
+.LinkLogin {
+    color: #a6a6a6;
+}
+
 input[type="submit"] {
     width: 100%;
     height: 50px;

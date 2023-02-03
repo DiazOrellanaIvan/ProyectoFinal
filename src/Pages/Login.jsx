@@ -1,4 +1,5 @@
 import './Login.css';
+import {Link} from "react-router-dom";
 
 const Login = () => {
     return(
@@ -17,10 +18,10 @@ const Login = () => {
                         <span></span>
                         <label>Password</label>
                     </div>
-                    <div className='password'>Olvidaste tu contaseña?</div>
+                    <div className='password'><Link to='/NotFound' className='LinkLogin'>Olvidaste tu contaseña?</Link></div>
                     <input type="submit" value="Login"/>
                     <div className='singnupLink'>
-                        No tienes una cuenta? <a href="#">Registrate</a>
+                        No tienes una cuenta? <Link to='/Register'>Registrate</Link>
                     </div>
                 </form>
             </div>

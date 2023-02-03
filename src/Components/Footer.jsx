@@ -3,6 +3,7 @@ import Logo from '../Images/Others/Logo.png';
 import IconFacebook from '../Images/Social Media/IconFacebook.png';
 import IconInstagram from '../Images/Social Media/IconInstagram.png';
 import IconTwitter from '../Images/Social Media/IconTwitter.png';
+import {Link} from "react-router-dom";
 
 const Footer = () => {
    return(
@@ -13,14 +14,14 @@ const Footer = () => {
                 <div><p className='copyrigth'>© 2022 Travel Adventure. Todos los derechos reservados</p></div>
             </a>
             <ul className='RedesFooter'>
-                <li className='FootItem'><a href="#" className='FootLink'><img className='ImgRedes' src={IconFacebook}/></a></li>
-                <li className='FootItem'><a href="#" className='FootLink'><img className='ImgRedes' src={IconInstagram}/></a></li>
-                <li className='FootItem'><a href="#" className='FootLink'><img className='ImgRedes' src={IconTwitter}/></a></li>
+                <li className='FootItem'><Link to='/NotFound' className='FootLink'><img className='ImgRedes' src={IconFacebook}/></Link></li>
+                <li className='FootItem'><Link to='/NotFound' className='FootLink'><img className='ImgRedes' src={IconInstagram}/></Link></li>
+                <li className='FootItem'><Link to='/NotFound' className='FootLink'><img className='ImgRedes' src={IconTwitter}/></Link></li>
             </ul>   
             <ul className='Pages'>
-                <li className='FItem'><a href="../Pages/NotFound.jsx" className='FLink'>Inicio</a></li>
-                <li className='FItem'><a href="../Pages/NotFound.jsx" className='FLink'>Quienes Somos</a></li>
-                <li className='FItem'><a href="../Pages/NotFound.jsx" className='FLink'>Contacto</a></li>
+                <li className='FItem'><Link to='/Home' className='FLink'>Inicio</Link></li>
+                <li className='FItem'><Link to='/AboutUs' className='FLink'>Quienes Somos</Link></li>
+                <li className='FItem'><Link to='' className='FLink'>Contacto</Link></li>
             </ul>
         </footer>
     </>
