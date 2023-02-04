@@ -21,7 +21,7 @@ const Footer = () => {
             <ul className='Pages'>
                 <li className='FItem'><Link to='/Home' className='FLink'>Inicio</Link></li>
                 <li className='FItem'><Link to='/AboutUs' className='FLink'>Quienes Somos</Link></li>
-                <li className='FItem'><Link to='' className='FLink'>Contacto</Link></li>
+                <li className='FItem'><Link to='/Contact' className='FLink'>Contacto</Link></li>
             </ul>
         </footer>
     </>

@@ -1,6 +1,6 @@
-// const navMenu = document.querySelector(".navMenu");
-// const navToggle = document.querySelector(".toggle");
+const navMenu = document.querySelector(".navMenu");
+const navToggle = document.querySelector(".toggle");
 
-// navToggle.addEventListener('click', () => {
-//     navMenu.classList.toggle("navMenuVisible");
-// });
+navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle("navMenuVisible");
+});

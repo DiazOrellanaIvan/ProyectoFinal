@@ -4,6 +4,7 @@ import Login from '../Pages/Login';
 import NotFound from '../Pages/NotFound';
 import Register from '../Pages/Register';
 import AboutUs from '../Pages/AboutUs';
+import Contact from '../Pages/Contact';
 
 
 const AppRouter = () => {    
@@ -16,6 +17,7 @@ const AppRouter = () => {
                 <Route exact path= "/Home" component={Home} />
                 <Route exact path= "/NotFound" component={NotFound} />
                 <Route exact path= "/AboutUs" component={AboutUs} />
+                <Route exact path= "/Contact" component={Contact} />
                 </Switch>
             </Router>
         </>
