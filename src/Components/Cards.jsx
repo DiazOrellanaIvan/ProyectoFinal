@@ -36,7 +36,7 @@ const Cards = () => {
                         <img src={tres} />
                     </figure>
                     <div className='content'>
-                        <h2>GLACIAR PERITO</h2>
+                        <h2>SANTA CRUZ</h2>
                         <h3>Precio de $52.500</h3>
                         <p> 7 dias / 5 noches </p>
                         <Link to='/NotFound'>VER MAS</Link>

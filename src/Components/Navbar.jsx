@@ -1,25 +1,31 @@
 import '../Components/Navbar.css';
-import Logo from '../Images/Others/Logo.png';
-import Perfil from '../Images/Others/Perfil.png';
-import HamburguerMenu from '../Images/Others/HamburguerMenu.png';
 import {Link} from "react-router-dom";
 
 const Navbar = () => {
     return(
     <>
-        <nav className='nav'>
-            <img src={Logo} />
-            <button className='toggle'>
-                <img className='toggleimg' src={HamburguerMenu} />
+    <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div className="container-fluid">
+            <a className="navbar-brand" href="#">TRAVEL ADVENTURE</a>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
             </button>
-            <ul className='navMenu'>
-                <li className='navItem'><Link to="/Home" className='navLink'>Inicio</Link></li>
-                <li className='navItem'><Link to="/AboutUs" className='navLink'>Quienes Somos</Link></li>
-                <li className='navItem'><Link to="/Contact" className='navLink'>Contacto</Link></li>
-                <li className='navCuenta navItem'><Link to='/NotFound' className='navLink'>Cuenta</Link></li>
-                <Link to='/NotFound'><img className='imgPerfil' src={Perfil} /></Link>
-            </ul>
-        </nav>
+            <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <Link to="/Home" className="nav-link active" aria-current="page">Home</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/Contact" className="nav-link">Contacto</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/AboutUs" className="nav-link">Quienes Somos</Link>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     </>
     );
 }

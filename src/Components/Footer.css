@@ -71,11 +71,11 @@ div p {
 @media (max-width: 769px) {
 
     .Footer {
-        height: 130px;
+        height: 145px;
     }
 
     .ImgLogo {
-        width: 300px;   
+        width: 250px;   
     }
 
     div p {
@@ -85,7 +85,7 @@ div p {
 
     .ImgRedes {
         width: 60px;
-        margin-left: 30PX;
+        margin-left: 20PX;
     }
 
     .RedesFooter {
@@ -114,11 +114,12 @@ div p {
 @media (max-width: 378px) {
     
     .Footer {
-        height: 260px;
+        height: 290px;
     }
     
     .ImgLogo {
-        margin-left: 5px;
+        width: 310px;
+        margin-left: 2px;
     }
 
     div p {
@@ -136,10 +137,10 @@ div p {
 
     .FootItem {
         margin: 30px 5px;
-        margin-left: -8px;
+        margin-left: -35px;
     }
 
     .RedesFooter {
-        margin-left: 7px;
+        margin-left: 2px;
     }
 }

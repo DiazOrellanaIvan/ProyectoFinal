@@ -1,128 +1,20 @@
-.nav {
-    background-color: #24252A;
-    height: 80px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.navLink {
-    color: #edf0f1;
-    text-decoration: none;
-}
-
-.navMenu {
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
-}
-
-.navItem {
-    font-size: 15px;
-    margin: 0px 10px;
-    line-height: 80px;
-    text-transform: uppercase;
-    width: max-content;
-}
-
-.navLink {
-    padding: 8px 12px;
-    border-radius: 5px;
-}
-
-.navLink:hover {
-    background-color: #6F8C64;
-    transition: 0.8s;
-}
-
-.imgPerfil {
-    margin-top: 8px;
-}
-
-.toggle {
-    color: white;
-    background: none;   
-    border: none;
-    padding: 0px;
-    display: none;
-    cursor: pointer;
-}
-
-.toggleimg {
-    width: 60px;
-}
-
-.navCuenta {
-    display: none;
+.navbar-nav {
+    margin-left: 700px;
 }
 
 @media (max-width: 768px) {
 
-    .nav {
-        height: 80px;
-    }
-
-    .navItem {
-        font-size: 14px;
-        margin-right: 10px;
-        line-height: 80px;
-        text-transform: uppercase;
-    }
-
-    img {
-        width: 300px;
-    }
-
-    .imgPerfil {
-        margin-top: 20px;
-        margin-left: 20px;
-        width: 40px;
+    .navbar-nav {
+        margin-left: 0px;
     }
 }
 
 @media (max-width: 320px) {
-    
-    img {
-        width: 250px;
-    }
 
-    .navMenu {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        background-color: #2A4731;
-        position: fixed;
-        left: 0;
-        top: 80px;
-        width: 100%;
-        padding: 136px 0px;
-        height: calc(100% - 60px);
-
-        left: 100%;
-        transition: left 0.3s;
-    }
-
-    .navCuenta {
-        display: block;
-    }
-
-    .imgPerfil {
-        display: none;
-    }
-
-    .toggle {
-        display: block;
-    }
-
-    .navMenuVisible {
-        left: 0;
+    .navbar-nav {
+        margin-left: 0px;
     }
 }
-
 
 
 
